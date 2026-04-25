@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Folio</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sat, 25 Apr 2026 01:06:29 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.0/Folio-1.0.0-arm64.dmg" length="9239407" type="application/octet-stream" sparkle:edSignature="IqG2+9rvq4Iv+p0MgCpJa8sHGSnntBFM5XKZ9qc0oGLab4k/WSI52RnRMBkszmE5oQcrAfznJv4yX2UD5ullBQ=="/>
+        </item>
+    </channel>
+</rss>
