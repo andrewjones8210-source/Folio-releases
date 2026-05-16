@@ -18,13 +18,74 @@ System requirements: macOS 15.0 (Sequoia) or later, Apple Silicon.
 
 ## Install
 
-1. Download the latest `Folio-x.y.z-arm64.dmg`.
-2. Open the DMG, drag **Folio.app** into **Applications**.
-3. **First launch:** right-click (or Control-click) Folio.app in Applications → **Open** → confirm.
+1. Click the **Download** link above. Safari/Chrome will save `Folio-arm64.dmg` to your **Downloads** folder.
+2. Double-click `Folio-arm64.dmg` to mount it.
+3. In the window that opens, drag **Folio.app** onto the **Applications** shortcut.
+4. Eject the DMG (right-click the disk in Finder → **Eject**).
 
-> Folio is signed with an Apple Development certificate, not a paid Apple Developer ID, so macOS Gatekeeper requires the right-click bypass on first launch only. Subsequent launches work normally.
+## First Launch — Bypass Gatekeeper (One-Time Step)
 
-Full instructions: [INSTALL.md](INSTALL.md).
+> **Why this is needed:** Folio is signed with an Apple Development certificate, **not** a paid Apple Developer ID. macOS Gatekeeper treats Development-signed apps as "from an unidentified developer" and blocks the first launch. The bypass below tells macOS you trust this app. You only do it once — subsequent launches are normal.
+
+**Do not double-click Folio.app on first launch.** Double-clicking will show:
+
+> *"Folio cannot be opened because it is from an unidentified developer."*
+
+…with no **Open** button. To bypass:
+
+1. Open **Finder** → **Applications**.
+2. **Right-click** (or Control-click) **Folio.app** → choose **Open**.
+3. macOS shows a warning dialog: *"macOS cannot verify the developer of 'Folio'. Are you sure you want to open it?"*
+4. Click **Open**.
+
+Folio launches. From now on, you can launch it normally from the Dock, Spotlight, or Launchpad.
+
+### If the Right-Click → Open Trick Doesn't Work
+
+On macOS Sequoia (15.x), Apple sometimes hides the **Open** button entirely. If that happens:
+
+1. Try to open Folio (it will be blocked).
+2. Open **System Settings** → **Privacy & Security**.
+3. Scroll to the **Security** section near the bottom.
+4. You'll see *"'Folio' was blocked from use because it is not from an identified developer."*
+5. Click **Open Anyway**.
+6. Authenticate with your password or Touch ID.
+
+## Privacy Permissions
+
+Folio records audio locally and never sends it off your Mac unless you explicitly share. macOS still requires you to grant permission. On first record, you'll be prompted for:
+
+| Permission | Why Folio Needs It | Required? |
+|---|---|---|
+| **Microphone** | Records your voice | Yes |
+| **Screen & System Audio Recording** | Captures other meeting participants (Zoom, Meet, Teams) via ScreenCaptureKit | Optional — decline if you only want your own voice |
+| **Speech Recognition** | (Legacy path only — not used by the default WhisperKit on-device transcription) | No |
+
+Grant each prompt as it appears.
+
+### If You Denied a Permission by Mistake
+
+Open **System Settings** → **Privacy & Security**, then:
+
+- **Microphone** → toggle **Folio** on.
+- **Screen & System Audio Recording** → toggle **Folio** on.
+
+You may need to quit and relaunch Folio for the change to take effect.
+
+### What Folio Sends Off Your Mac (and What It Doesn't)
+
+| Data | Leaves Your Mac? |
+|---|---|
+| Audio recordings | **Never** unless you choose to share/export |
+| Transcripts | **Never** unless you choose to share/export |
+| Meeting summaries | Only the **prompt text** is sent to the AI provider you configured (Anthropic / OpenAI / Ollama / Claude Code subscription). Choose **Ollama** for fully offline. |
+| Slack share | Only if you click **Share to Slack** |
+| API keys | Stored in your macOS Keychain. Never sent anywhere except the provider you configured. |
+| Telemetry / analytics | **None.** Folio has no analytics SDK. |
+| Update check | Sparkle requests `appcast.xml` from this GitHub repo once per day. No identifying info. |
+| ML model downloads | On first launch, Folio downloads WhisperKit (transcription) + SpeakerKit (diarization) models from Hugging Face. One-time. |
+
+Full install + privacy details: [INSTALL.md](INSTALL.md).
 
 ## What Folio Does
 
@@ -33,8 +94,6 @@ Full instructions: [INSTALL.md](INSTALL.md).
 - Diarizes speakers locally with SpeakerKit (CoreML / Apple Neural Engine).
 - Summarizes with the AI provider of your choice (Anthropic, OpenAI, Ollama, or your existing Claude Code subscription).
 - Shares meeting summaries to Slack.
-
-Audio and transcripts never leave your Mac unless you explicitly share them.
 
 ## Auto-Update
 
@@ -45,14 +104,6 @@ Folio uses [Sparkle](https://sparkle-project.org) and checks this repository's `
 Open an issue: <https://github.com/andrewjones8210-source/Folio-releases/issues>
 
 If you've enabled **Settings → Diagnostics**, attach the relevant JSON files from `~/Library/Application Support/Folio/Diagnostics/`. Diagnostics are off by default and stay on your Mac unless you choose to share them.
-
-## Privacy
-
-- Microphone access is used only while you are recording.
-- System audio capture (other meeting participants) is opt-in per macOS permission.
-- API keys for external AI providers are stored in your system Keychain.
-- No telemetry, no analytics, no usage tracking.
-- The only outbound network requests Folio makes without your action are: (1) a daily Sparkle update check against this repo and (2) automated download of WhisperKit / SpeakerKit ML models from Hugging Face on first launch.
 
 ## License
 
