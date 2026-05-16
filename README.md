@@ -10,7 +10,9 @@ The application source code lives in a separate private repository. This repo ho
 
 ## Download
 
-Latest release: **[Releases page](https://github.com/andrewjones8210-source/Folio-releases/releases/latest)**
+**[Download Folio for macOS (Apple Silicon)](https://github.com/andrewjones8210-source/Folio-releases/releases/latest/download/Folio-arm64.dmg)**
+
+Always serves the latest signed build. See the [Releases page](https://github.com/andrewjones8210-source/Folio-releases/releases/latest) for version history and release notes.
 
 System requirements: macOS 15.0 (Sequoia) or later, Apple Silicon.
 
