@@ -9,7 +9,7 @@ Folio is a macOS app that records meetings, transcribes them on-device, and summ
 
 ## Install
 
-1. Download the latest **Folio-x.y.z-arm64.dmg** from the [Releases page](https://github.com/andrewjones8210-source/Folio-releases/releases/latest).
+1. [Download Folio](https://github.com/andrewjones8210-source/Folio-releases/releases/latest/download/Folio-arm64.dmg) (always the latest signed build).
 2. Open the DMG.
 3. Drag **Folio.app** into the **Applications** folder.
 
