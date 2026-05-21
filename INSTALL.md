@@ -40,7 +40,7 @@ Folio runs transcription on-device. Summarization requires an AI provider.
 
 1. Open **Folio → Settings** (⌘,).
 2. Choose a provider:
-   - **Anthropic / OpenAI** — paste your API key.
+   - **Anthropic / OpenAI / Groq / Together.ai / DeepSeek** — paste your API key.
    - **Ollama** — point to your local endpoint (default `http://localhost:11434`).
    - **Claude Code** — uses your existing Claude Code subscription. No key needed. Requires the `claude` CLI installed and authenticated.
 3. Click **Save**.
@@ -69,6 +69,37 @@ Off by default. Toggle off any time.
    rm -rf ~/Library/Caches/com.suryaamara.folio
    ```
 4. API keys are stored in the system Keychain. Delete entries matching `com.folio.provider.*` via Keychain Access if desired.
+
+## Troubleshooting
+
+### The Folio icon bounces in the Dock then disappears
+
+You have **v1.0.1** installed. The Sparkle auto-update framework in that build kept its upstream Team ID, and macOS hardened-runtime library validation refused to load it — the process dies before the main window opens. Symptom: 1–2 Dock bounces, then nothing. No Gatekeeper dialog, no crash report.
+
+Fix: download **v1.0.2 or later** from the [Folio releases page](https://github.com/andrewjones8210-source/Folio-releases/releases/latest) and reinstall. Sparkle auto-update cannot recover v1.0.1 — the failure happens before Sparkle even runs.
+
+### My meetings disappeared after updating Folio
+
+Folio v1.0.x and earlier wrote its SwiftData store to `~/Library/Application Support/default.store`. Newer builds write to `~/Library/Application Support/Folio/Folio.store`. On first launch of a new build, Folio consolidates the two: whichever store has the newer modification time wins; the loser is renamed `*.superseded-<date>` and kept on disk so you can recover manually.
+
+To recover the archived store:
+```
+ls ~/Library/Application\ Support/Folio/
+# look for Folio.store.superseded-YYYYMMDD-HHMMSS
+```
+Then either quit Folio and rename the archive back to `Folio.store` (after backing up the active one), or open both with [DB Browser for SQLite](https://sqlitebrowser.org/) and export rows.
+
+### Claude Code shows "not found" but `claude` works in Terminal
+
+macOS GUI apps don't inherit your shell's `PATH`, so Folio probes a fixed set of install locations (Anthropic's installer, Homebrew, nvm, Bun, Volta, fnm). If your `claude` lives elsewhere, the path probe in Settings → AI Provider → Claude Code (expand "Why not detected?") lists everything Folio looked for. The easiest fix is to symlink it into one of those locations, e.g.:
+```
+ln -s /path/to/your/claude /usr/local/bin/claude
+```
+Then click **Retry detection**.
+
+### Cmd+Q while Folio is still summarizing
+
+Folio holds the quit for up to 10 seconds while AI post-processing finishes writing its results. If it takes longer than 10 s, summary writes may be lost — the transcript and diarized segments are saved earlier in the pipeline and will survive the quit either way.
 
 ## Reporting Issues
 
