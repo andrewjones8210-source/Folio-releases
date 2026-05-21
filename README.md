@@ -78,7 +78,7 @@ You may need to quit and relaunch Folio for the change to take effect.
 |---|---|
 | Audio recordings | **Never** unless you choose to share/export |
 | Transcripts | **Never** unless you choose to share/export |
-| Meeting summaries | Only the **prompt text** is sent to the AI provider you configured (Anthropic / OpenAI / Ollama / Claude Code subscription). Choose **Ollama** for fully offline. |
+| Meeting summaries | Only the **prompt text** is sent to the AI provider you configured (Anthropic / OpenAI / Groq / Together.ai / DeepSeek / Ollama / Claude Code subscription). Choose **Ollama** for fully offline. |
 | Slack share | Only if you click **Share to Slack** |
 | API keys | Stored in your macOS Keychain. Never sent anywhere except the provider you configured. |
 | Telemetry / analytics | **None.** Folio has no analytics SDK. |
@@ -92,7 +92,7 @@ Full install + privacy details: [INSTALL.md](INSTALL.md).
 - Records meetings (mic + system audio via ScreenCaptureKit).
 - Transcribes locally on-device with WhisperKit (no cloud).
 - Diarizes speakers locally with SpeakerKit (CoreML / Apple Neural Engine).
-- Summarizes with the AI provider of your choice (Anthropic, OpenAI, Ollama, or your existing Claude Code subscription).
+- Summarizes with the AI provider of your choice (Anthropic, OpenAI, Groq, Together.ai, DeepSeek, Ollama, or your existing Claude Code subscription).
 - Shares meeting summaries to Slack.
 
 ## Auto-Update
