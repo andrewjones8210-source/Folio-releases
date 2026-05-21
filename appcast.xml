@@ -3,6 +3,14 @@
     <channel>
         <title>Folio</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Thu, 21 May 2026 17:06:26 +0800</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.4/Folio-1.0.4-arm64.dmg" length="9352259" type="application/octet-stream" sparkle:edSignature="Gdc4UO+ht8ZPgjZ8NExtpl8SsNMUm2bTYhDFYHBVT5uQYWMip5/iiCWJik0IiH3+SyQs2uFV+27cQt2uOanvDA=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Thu, 21 May 2026 13:17:59 +0800</pubDate>
             <sparkle:version>4</sparkle:version>
@@ -19,17 +27,6 @@
             <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.2/Folio-1.0.2-arm64.dmg" length="9422170" type="application/octet-stream" sparkle:edSignature="T22iof6QtlHALSwtwtT9FmoGWI3X+XkwzcpDaptohP3pX18zz+OSbodWSrceoTR9BGji+SJ4S35BqCt7VcW3Dw=="/>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/andrewjones8210-source/Folio-releases/main/Folio3-1.delta" sparkle:deltaFrom="1" length="1501342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Nbk86x1NxlggmETNC/RTVNlQ8ktubFGYOmG2dl/kZHQdB7V2H10eUIfY+eVb05pBknFkYTeen19cMW/+hj38DQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Thu, 21 May 2026 10:20:25 +0800</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.1/Folio-1.0.1-arm64.dmg" length="9401838" type="application/octet-stream" sparkle:edSignature="Nvv1bdiweRK5oLxt64wVFduAAc6sPWPILAZ9Hwjh0LN3w61ojYP9weZzC3PG69+Xh4eXXaognIWVrtnc10hAAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/andrewjones8210-source/Folio-releases/main/Folio2-1.delta" sparkle:deltaFrom="1" length="1494830" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="flTdLcdji4jbfnRopdrMf9qCpBuvEReyJLZ90clHVuAnAI89xUwN3k3VLu5JNOBYjgd5IwOp24Hs2+whmgZ/Aw=="/>
             </sparkle:deltas>
         </item>
     </channel>
