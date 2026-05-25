@@ -8,7 +8,7 @@
             <sparkle:version>10</sparkle:version>
             <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.9/Folio-1.0.9-arm64.dmg" length="9443299" type="application/octet-stream" sparkle:edSignature="FKBHsa1snsjYi1X4qeH+GWdH4fTxOEUhjXjVX4dQee8juuxpQ8fNgPax/Hw0KBCAWLnuI4FRjIwVr+ID6x6XCg=="/>
+            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.9/Folio-1.0.9-arm64.dmg" length="9440882" type="application/octet-stream" sparkle:edSignature="xoh+PH3VgG0xpFk5KVOectZPwf8W4QbqMETWZsDYF9X9fHgLSbOI4A/WuUhWVDytUEVbXrOpLysrgHycIt0LDw=="/>
         </item>
         <item>
             <title>1.0.8</title>
