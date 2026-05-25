@@ -28,6 +28,8 @@ Folio launches. From now on, double-click it from the Dock or Applications like 
 xattr -dr com.apple.quarantine /Applications/Folio.app && open /Applications/Folio.app
 ```
 
+</details>
+
 ## Why install it
 
 Recordings rot. Slack eats decisions. Action items scatter.
@@ -65,8 +67,6 @@ Record microphone and system audio, then let Folio process the meeting into some
 Folio stores your meeting library locally. Audio and transcripts stay on your Mac unless you export them or configure an external AI provider for summarization.
 
 Screenshots on this page use demo data or capture-mode UI only. No private meeting content is shown.
-
-</details>
 
 ## Auto-update
 
