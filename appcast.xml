@@ -3,6 +3,14 @@
     <channel>
         <title>Folio</title>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Mon, 25 May 2026 10:40:59 +0800</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.6/Folio-1.0.6-arm64.dmg" length="8903447" type="application/octet-stream" sparkle:edSignature="G/mc7a9IZGDG0cJCl99Od4jljY3FI8ORIVQ39ovLj/TEMS/+H1B8MuMeMHCEq25NsCiC/tqakXhKcuLKq23HCg=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Thu, 21 May 2026 19:46:13 +0800</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.4/Folio-1.0.4-arm64.dmg" length="9352259" type="application/octet-stream" sparkle:edSignature="Gdc4UO+ht8ZPgjZ8NExtpl8SsNMUm2bTYhDFYHBVT5uQYWMip5/iiCWJik0IiH3+SyQs2uFV+27cQt2uOanvDA=="/>
-        </item>
-        <item>
-            <title>1.0.3</title>
-            <pubDate>Thu, 21 May 2026 13:17:59 +0800</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.3/Folio-1.0.3-arm64.dmg" length="9352866" type="application/octet-stream" sparkle:edSignature="84OvWZRGC/+t8hupuevbefhxBjwuv2vcKHINrt4ynPXgR8kWOwBZ3A/WYUaoOZwdyRCDRUxYjwWgi6s2UcOXAw=="/>
         </item>
     </channel>
 </rss>
