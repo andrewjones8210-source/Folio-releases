@@ -3,6 +3,14 @@
     <channel>
         <title>Folio</title>
         <item>
+            <title>1.0.20</title>
+            <pubDate>Tue, 26 May 2026 18:59:40 +0800</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.20/Folio-1.0.20-arm64.dmg" length="9603232" type="application/octet-stream" sparkle:edSignature="SJ+5zIQh8xm8keL5DmY2iFoBeupCZJ+Vm8OI5qv0xDMbxgrgk7h37kcxq74deH2oZ2TjUHbqiix6pTOR6ZraAQ=="/>
+        </item>
+        <item>
             <title>1.0.19</title>
             <pubDate>Tue, 26 May 2026 18:33:33 +0800</pubDate>
             <sparkle:version>20</sparkle:version>
@@ -17,17 +25,6 @@
             <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.18/Folio-1.0.18-arm64.dmg" length="9600229" type="application/octet-stream" sparkle:edSignature="hiIqruSZ6zIu7Rag1DjUweBnKraKknHHvV00PvdTbYfxNf3LkT8q0wIzwFYf936js4tFzW4k6pglxkKtDGQJDw=="/>
-        </item>
-        <item>
-            <title>1.0.17</title>
-            <pubDate>Tue, 26 May 2026 16:15:30 +0800</pubDate>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.17/Folio-1.0.17-arm64.dmg" length="9696062" type="application/octet-stream" sparkle:edSignature="UgeeyHVJWRh0xgH+UwZSw0nzS+SOlewOzMc4j+Cm0HtMzcxtEc/zyTnBShpwId8OtVBiV+w5lFhrtpPRSJdFBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.17/Folio18-17.delta" sparkle:deltaFrom="17" length="651570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9ep+3z8fxmPJsT6inRSyv6xV4HZdWCgXtDn++izNeUJHMM65CJCXS28bTTzztg9XsdDAnHW3r168TJvHV80RCA=="/>
-            </sparkle:deltas>
         </item>
     </channel>
 </rss>
