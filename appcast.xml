@@ -3,6 +3,15 @@
     <channel>
         <title>Folio</title>
         <item>
+            <title>1.0.23</title>
+            <pubDate>Fri, 05 Jun 2026 17:47:06 +0800</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.0.23/Folio-1.0.23-arm64.dmg" length="5461971" type="application/octet-stream" sparkle:edSignature="W9PooJ7I6oZw64Ktboatwvq9Q/ysAWw2XvE+f8BnlGLHOegN4GgT8bVtIEoegfgD1DHecgT2jiYEBf3owrKbCA=="/>
+        </item>
+        <item>
             <title>1.0.22</title>
             <pubDate>Fri, 05 Jun 2026 12:47:32 +0800</pubDate>
             <sparkle:version>23</sparkle:version>
