@@ -15,15 +15,6 @@
             </sparkle:deltas>
         </item>
         <item>
-            <title>1.2.0</title>
-            <pubDate>Sat, 13 Jun 2026 12:31:28 +0800</pubDate>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.2.1/Folio-1.2.0-arm64.dmg" length="5659357" type="application/octet-stream" sparkle:edSignature="zcgGLqggpORo6hR2xgbDZT8nXhLVGWxAYfl/3WVTOyIoX6ZeXkJnwADnn5k12hE6QhSPfmWNr4YkMR9KmDtdCA=="/>
-        </item>
-        <item>
             <title>1.1.1</title>
             <pubDate>Fri, 12 Jun 2026 10:07:36 +0800</pubDate>
             <sparkle:version>26</sparkle:version>
