@@ -3,13 +3,25 @@
     <channel>
         <title>Folio</title>
         <item>
+            <title>1.2.3</title>
+            <pubDate>Fri, 19 Jun 2026 09:27:41 +0800</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.2.3/Folio-1.2.3-arm64.dmg" length="5000160" type="application/octet-stream" sparkle:edSignature="dZ94USQmjcso9Gv5Lks+ddXQq+keHxezbXg0a04uIOdYR/49vaXJ38WBE0kSBBuBYgEmeI3EqiSyWgRPh70QCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.2.3/Folio30-29.delta" sparkle:deltaFrom="29" length="384338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T6EyfOoWl5L3BPFHKvLQnpwUOQ13MdfBjmIfXhEe6AssZIIP8p5mK3OAOdOjmmiH+FdmiBGQSl9do3t3xxAvAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.2</title>
             <pubDate>Sun, 14 Jun 2026 12:42:19 +0800</pubDate>
             <sparkle:version>29</sparkle:version>
             <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.2.2/Folio-1.2.2-arm64.dmg" length="4998624" type="application/octet-stream" sparkle:edSignature="IjPAX3u8F9YAswTeujfiihgyr1sRenMu2tRfMdADndnyAK0py4sxWMWbhw54bhwlM0vS1VdXJdxifSky8FeUDg=="/>
+            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.2.3/Folio-1.2.2-arm64.dmg" length="4998624" type="application/octet-stream" sparkle:edSignature="IjPAX3u8F9YAswTeujfiihgyr1sRenMu2tRfMdADndnyAK0py4sxWMWbhw54bhwlM0vS1VdXJdxifSky8FeUDg=="/>
         </item>
         <item>
             <title>1.2.1</title>
@@ -21,18 +33,6 @@
             <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.2.1/Folio-1.2.1-arm64.dmg" length="5757628" type="application/octet-stream" sparkle:edSignature="/eZl4UffRStSWgIomKwqBKA2RR3P8ELCI9ZQc6WUPg/qYfmA8Km6GZqtYTorg7+b4mQCwPeEBWTSYC7owIeXDg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.2.1/Folio28-27.delta" sparkle:deltaFrom="27" length="115038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/O/leVVyfmn5NF6hwEA+GMoOjb1Fl5o78URfDcvWfKjJj7RdCO26xeQKYkn9PmFPkTo+IBFVmdheS9EwC0Q5CA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.1.1</title>
-            <pubDate>Fri, 12 Jun 2026 10:07:36 +0800</pubDate>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.1.1/Folio-1.1.1-arm64.dmg" length="5719328" type="application/octet-stream" sparkle:edSignature="2SgABR+xB4FPEIIyMsLbvErE7nGoP9+qqezrwm+01+1JyxaZ4WUpL+1eGcVxU0EQAaqMOO1zFFJrdMoHc2tDDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/andrewjones8210-source/Folio-releases/releases/download/v1.1.1/Folio26-24.delta" sparkle:deltaFrom="24" length="915470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v+9nBEjHGBbB5bYGKCXpzY8T8M2Sk/Lf/dvW+VBX3I484x6Vi/FRxCCMb1PcdoirgRTYRDIzUvHw1JNJLEBmAQ=="/>
             </sparkle:deltas>
         </item>
         <item>
